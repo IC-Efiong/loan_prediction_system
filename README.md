@@ -25,13 +25,13 @@ This project aims to develop a **Loan Prediction System** using **Machine Learni
 
 ## 🤖 Machine Learning Models
 The following models were trained and evaluated:
-1. **Logistic Regression**
+1. **Logistic Regression** (Best Performing Model ✅)
 2. **Decision Tree**
 3. **Random Forest**
 4. **Support Vector Machine (SVM)**
 5. **K-Nearest Neighbors (KNN)**
 6. **Gradient Boosting**
-7. **XGBoost** (Best Performing Model ✅)
+7. **XGBoost**
 
 ## 📈 Model Evaluation
 - **Best Model:** Logistic Regression (Accuracy: **85.4%**)
