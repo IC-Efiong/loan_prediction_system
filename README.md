@@ -34,7 +34,7 @@ The following models were trained and evaluated:
 7. **XGBoost** (Best Performing Model ✅)
 
 ## 📈 Model Evaluation
-- **Best Model:** XGBoost (Accuracy: **86.2%**)
+- **Best Model:** Logistic Regression (Accuracy: **85.4%**)
 - **Evaluation Metrics:**
   - Accuracy, Precision, Recall, F1-score
   - **Confusion Matrix & ROC-AUC Score** (AUC = **0.82** ✅)
