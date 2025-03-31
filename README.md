@@ -72,6 +72,63 @@ print("Loan Status:", "Approved" if prediction[0] == 1 else "Rejected")
   - Explore additional models (e.g., LightGBM).
   - Improve handling of imbalanced data.
 
+# Loan Prediction App
+
+This is a Streamlit-based web application that predicts loan approval based on user input. The model uses categorical encoding, feature scaling, and a machine learning model to make predictions.
+
+## Features
+- User-friendly interface for entering loan application details
+- Automatic feature engineering (e.g., calculating Total Income)
+- Label encoding for categorical variables
+- Standardization of numerical features
+- Machine learning-based loan approval prediction
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/loan-prediction.git
+   cd loan-prediction
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Dependencies
+- Python 3.x
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+
+## Usage
+1. Launch the Streamlit app.
+2. Fill in the required loan application details.
+3. Click the "Predict Loan Approval" button.
+4. The system will display whether the loan is "Approved" or "Not Approved".
+
+## Model Training
+The machine learning model used for prediction was trained separately. It includes:
+- Label encoding for categorical variables
+- Standardization of numerical features
+- A trained classification model (e.g., Logistic Regression, Random Forest, etc.)
+
+## Future Improvements
+- Deploy the model using a cloud-based API.
+- Improve prediction accuracy with additional features.
+- Enhance UI with better visualizations.
+
+
+## License
+This project is licensed under the MIT License.
+
+
+
 🔹 **Author:** [IC-Efiong]  
 🔹 **Date:** [10/03/2025]
 
